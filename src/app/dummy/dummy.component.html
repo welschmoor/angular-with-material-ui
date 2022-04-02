@@ -1,0 +1,5 @@
+<p>{{name}}</p>
+<input type="text" (input)="onInput($event)" [value]="name">
+<button (click)="increase()">Increase Counter</button>
+<button (click)="decrease()">Decrease Counter</button>
+<div [textContent]="counter"></div>
